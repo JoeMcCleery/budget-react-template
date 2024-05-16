@@ -1,6 +1,6 @@
 # BudgetReact + TypeScript + Vite
 
-This template provides a minimal setup to get BudgetReact working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get [BudgetReact](https://github.com/JoeMcCleery/budget-react) working in Vite with HMR and some ESLint rules.
 
 ## Expanding the ESLint configuration
 
