@@ -22,3 +22,15 @@ export default {
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+
+## Deploy
+
+In `vite.config.ts`, replace `base: "/budget-react-template"` with your own base url.
+
+```bash
+# npm
+npm run deploy
+
+# yarn
+yarn deploy
+```
