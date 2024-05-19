@@ -2,12 +2,13 @@ import budgetReactLogo from "./assets/budget-react.svg";
 import viteLogo from "/vite.svg";
 import typescriptLogo from "./assets/ts-logo-128.svg";
 import "./App.css";
+import Toggle from "./components/Toggle";
 import Counter from "./components/Counter";
 import GithubUserImage from "./components/GithubUserImage";
 
 function App() {
   return (
-    <div>
+    <>
       <div>
         <a
           href="https://vitejs.dev"
@@ -48,8 +49,14 @@ function App() {
       </div>
       <h1>Vite + BudgetReact + TypeScript</h1>
       <div className="card">
+        <Toggle>
+          <p>Now, this is a story all about how...</p>
+          <p>My life got flipped-turned upside down...</p>
+          <p>And I'd like to take a minute...</p>
+          <p>Just sit right there...</p>
+          <p>I'll tell you how I became the prince of a town called Bel-Air!</p>
+        </Toggle>
         <Counter />
-
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
@@ -60,7 +67,7 @@ function App() {
       <div className="card">
         <GithubUserImage username="JoeMcCleery" />
       </div>
-    </div>
+    </>
   );
 }
 
