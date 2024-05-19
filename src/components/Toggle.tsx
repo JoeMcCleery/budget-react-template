@@ -10,7 +10,7 @@ function Toggle(props: Props) {
   function changeIndex(change: number) {
     setIndex((index) => (children.length + index + change) % children.length);
   }
-  console.log(props.children);
+
   return (
     <>
       <div className="toggle">
