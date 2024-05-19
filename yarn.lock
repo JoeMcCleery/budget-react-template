@@ -447,9 +447,9 @@ braces@^3.0.2:
     fill-range "^7.0.1"
 
 budget-react@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/budget-react/-/budget-react-1.0.0.tgz#397c8984ef5678bc555e29f46a9a3db014e6f0e2"
-  integrity sha512-o7IY5uh244fVR0y//jbbSa5TT10ZrUHvWAmb5+/2hcJD/woU8pLUHjGw4fykdgfnMO7uoHCuzI2evGKFMpP+PA==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/budget-react/-/budget-react-1.0.3.tgz#454d02cdc2608acc571903145009ee78a703b84f"
+  integrity sha512-SNQz2LUhjlQWZS2ouETmjJs9JqNmFOrgQok+GIV1+miG+KaGIZAdTIQzdXZDs/t2BV388AkgdeAIQuQfMcWdYA==
 
 callsites@^3.0.0:
   version "3.1.0"
