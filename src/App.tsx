@@ -1,5 +1,6 @@
 import budgetReactLogo from "./assets/budget-react.svg";
 import viteLogo from "/vite.svg";
+import typescriptLogo from "./assets/ts-logo-128.svg";
 import "./App.css";
 import Counter from "./components/Counter";
 import GithubUserImage from "./components/GithubUserImage";
@@ -12,6 +13,7 @@ function App() {
           href="https://vitejs.dev"
           target="_blank"
           rel="noopener"
+          title="Vite"
         >
           <img
             src={viteLogo}
@@ -23,6 +25,7 @@ function App() {
           href="https://github.com/JoeMcCleery/budget-react"
           target="_blank"
           rel="noopener"
+          title="BudgetReact"
         >
           <img
             src={budgetReactLogo}
@@ -30,8 +33,20 @@ function App() {
             alt="BudgetReact logo"
           />
         </a>
+        <a
+          href="https://www.typescriptlang.org/"
+          target="_blank"
+          rel="noopener"
+          title="TypeScript"
+        >
+          <img
+            src={typescriptLogo}
+            className="logo typescript"
+            alt="TypeScript logo"
+          />
+        </a>
       </div>
-      <h1>Vite + BudgetReact</h1>
+      <h1>Vite + BudgetReact + TypeScript</h1>
       <div className="card">
         <Counter />
 
@@ -40,7 +55,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and BudgetReact logos to learn more
+        Click on the Vite, BudgetReact and TypeScript logos to learn more
       </p>
       <div className="card">
         <GithubUserImage username="JoeMcCleery" />
