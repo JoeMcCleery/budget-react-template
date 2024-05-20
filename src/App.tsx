@@ -48,7 +48,11 @@ function App() {
         </a>
       </div>
       <h1>Vite + BudgetReact + TypeScript</h1>
+      <p className="read-the-docs">
+        Click on the Vite, BudgetReact and TypeScript logos to learn more
+      </p>
       <div className="card">
+        <h2>useState</h2>
         <Toggle>
           <p>Now, this is a story all about how...</p>
           <p>My life got flipped-turned upside down...</p>
@@ -57,16 +61,15 @@ function App() {
           <p>I'll tell you how I became the prince of a town called Bel-Air!</p>
         </Toggle>
         <Counter />
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite, BudgetReact and TypeScript logos to learn more
-      </p>
+      <br />
       <div className="card">
+        <h2>useEffect</h2>
         <GithubUserImage username="JoeMcCleery" />
       </div>
+      <p>
+        Edit <code>src/App.tsx</code> and save to test HMR
+      </p>
     </>
   );
 }

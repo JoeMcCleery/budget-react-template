@@ -38,6 +38,8 @@
 
 .card {
   padding: 2em;
+  border-radius: 8px;
+  background-color: #313131;
 }
 
 .read-the-docs {
@@ -46,4 +48,10 @@
 
 .toggle span {
   padding: 0 1em;
+}
+
+@media (prefers-color-scheme: light) {
+  .card {
+    background-color: #ececec;
+  }
 }
